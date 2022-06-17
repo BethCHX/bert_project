@@ -1,8 +1,7 @@
 # Question-Answer-BERT-Dischord-Bot
 This project is a Chatbot deployed on discord channel. It is capable of answering questions from users by scanning across databases containing millions of paragraphs. The most relevant paragraph is first filtered using a search engine based on the inverted index and then a BERT model is used to find the answer within the filtered paragraph.
 
-![poster.jpg](https://github.com/BethCHX/bert_project/tree/main/screenshots/poster.jpg)
-
+![poster.jpg](screenshots/poster.jpg)
 
 # Setting up Code
 - pip install -r requirements.txt
